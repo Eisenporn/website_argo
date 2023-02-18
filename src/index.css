@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+header {
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.69) 0%, rgba(0, 0, 0, 0.00984375) 99.99%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0.05) 100%);
+  height: 133px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  margin-top: 10px;
+}
+
+header ul {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 25px;
+}
+
+header ul li a {
+  transition: 0.15s ease-in-out;
+  text-transform: uppercase;
+}
+header ul li a:hover {
+  color: white;
+  background-color: black;
+  border-radius: 7px;
+  padding-inline: 7px;
+  padding-block: 5px;
+}
+
+main {
+  height: 100vh;
+  background: conic-gradient(from 180deg at 50% 50%, #570000 0deg, #005A0E 110.62deg, #000C49 247.5deg, #45004B 360deg);
+}
